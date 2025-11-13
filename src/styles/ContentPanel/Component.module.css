@@ -1,0 +1,115 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.ComponentHead{
+    display: flex;
+    padding: 5px;
+    border-radius: 16px 16px 0px 0px;
+    border: 1.5px solid #D0D0D0;
+    width: fit-content;
+    border-bottom: 0px;
+}
+.ComponentHeadItem{
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #45CE85;
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+.ComponentHeadItemUnselected{
+     padding: 8px 16px;
+    border-radius: 12px;
+    background: transparent;
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+.ComponentBody{
+    border: 1.5px solid #D0D0D0;
+    border-radius: 0px 16px 16px 16px ;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.SearchBoxWrapper{
+    margin: 17px;
+}
+.ComponentBodyMain{
+    margin: 17px;
+    background: #EDEEF0;
+    border-radius: 16px;
+    height: 100%;
+}
+.ComponentBodyMainHead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 17px;
+}
+.ComponentBodyMainHeadTitle{
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+.ComponentBodyMainHeadAction{
+    padding: 8px 16px;
+    background: #45CE85;
+    border-radius: 8px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+}
+.MainItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f5f5;
+    margin: 17px;
+}
+.MainItemChild{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 2px solid #d5d5d5;
+    padding: 16px;
+    gap: 10px;
+}
+.OptionItem{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #d5d5d5;
+     font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+.OptionItem1{
+     padding: 10px 20px;
+     border-radius: 8px;
+     background: #d5d5d5;
+      font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 12px;
+}
+.pencilIcon{
+        padding: 9px;
+    border-radius: 8px;
+    border: 1px solid #d5d5d5;
+    background: #f5f5f5;
+    
+}
+.ItemHead{
+    margin: 17px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+}

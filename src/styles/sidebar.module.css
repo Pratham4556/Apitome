@@ -1,0 +1,60 @@
+.SidebarMain{
+    display: flex;
+    flex-direction:column ;
+    background: #F5F5F5;
+    border: 1px solid #D0D0D0;
+    padding: 10px;
+    height: 95%;
+    justify-content: space-between;
+    border: 1px solid #D0D0D0;
+    border-radius: 16px;
+    width: 10%;
+}
+.SidebarOptionsItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+  background:transparent;
+  border-radius: 16px;
+}
+.SidebarSettings{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  padding: 14px 10px 10px 10px;
+  background:transparent;
+  border-top: 1px solid #d0d0d0;
+}
+.SidebarOptionsItemSelected{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  padding: 10px;
+  background: #45CE85;
+  border-radius: 16px;
+}
+.SidebarOptionsItemImage{
+    background: #1D1D1D;
+    padding: 10px;
+    border-radius: 8px;
+    height: 20px;
+    width: 20px;
+}
+.SidebarMainOptionsContainer{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Headermain{
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px;
+    border: 0.5px solid #D0D0D0;
+    border-radius: 16px;
+}
+.logoStyles{
+    padding: 14px;
+}
+.DeployButton{
+    background: #1D1D1D;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 14px;
+}
+.rocketImage{
+    width: 20px;
+    height: 20px;
+}
+.ProjectStatus{
+    border-radius: 16px;
+    border: 0.5px solid #D0D0D0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+     font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  padding: 9px;
+}
+.PlayAbleButton{
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+    background-color: white;
+    gap: 2px;
+}
+.PlayAbleButtonState{
+background-color: #F02349;
+padding: 7px;
+border-bottom-right-radius: 12px;
+border-top-right-radius: 12px;
+}
+.statusIcon{
+    width: 17px;
+    height: 17px;
+    padding: 9px;
+     background-color: #F02349;
+     border-top-left-radius: 12px;
+     border-bottom-left-radius: 12px;
+}
+/* Start State - Gray */
+.statusIconStart {
+    width: 17px;
+    height: 17px;
+    padding: 9px;
+    background-color: #D0D0D0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.PlayAbleButtonStateStart {
+    background-color: #D0D0D0;
+    padding: 7.5px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: 500;
+}
+
+/* Play State - Green */
+.statusIconPlay {
+    width: 17px;
+    height: 17px;
+    padding: 9px;
+    background-color: #45CE85;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.PlayAbleButtonStatePlay {
+    background-color: #45CE85;
+    padding: 7.5px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: 500;
+}
+
+/* Pause State - Red (your existing classes) */
+.statusIconPause {
+    width: 17px;
+    height: 17px;
+    padding: 9px;
+    background-color: #F02349;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.PlayAbleButtonStatePause {
+    background-color: #F02349;
+    padding: 7.5px;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    font-weight: 500;
+}

@@ -1,0 +1,35 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 17px;
+    background: #EDEEF0;
+    border-radius: 16px;
+    border: 1px solid #d0d0d0;
+}
+.MainSearchBox{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.MainSearchBoxInputArea{
+    padding: 14px;
+    border-radius: 16px;
+    border: 1px solid #D0D0D0;
+    width: 95%;
+}
+.mainHead{
+     font-size: 18px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.MainSearchBoxButton{
+    padding: 12px;
+    background-color: #45CE85;
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    font-weight: 500;
+}

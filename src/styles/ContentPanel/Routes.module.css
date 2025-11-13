@@ -1,0 +1,152 @@
+.parent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 100%;
+}
+.child{
+    background: #EDEEF0;
+    border: 1px solid #D0D0D0;
+    height: 100%;
+    border-radius: 16px;
+    padding: 17px;
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+.childHead{
+    display: flex;
+    justify-content: space-between;
+}
+.childHeadHeading{
+    font-size: 18px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.childHeadAction{
+    display: flex;
+    gap: 16px;
+}
+.childHeadActionCreateRoute{
+    padding: 12px;
+    background-color: #45CE85;
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.childHeadActionSave{
+    padding: 12px;
+    background-color: #1D1D1D;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    font-weight: 500;
+    display: flex;
+    gap: 10px;
+}
+.childBody{
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    padding: 17px;
+}
+.RouteCreatorMain{
+
+}
+.ListMap{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.RouteCreatorMainChild1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 16px;
+    padding-bottom: 17px;
+    border-bottom: 1.5px solid #d0d0d0;
+}
+.RouteCreatorMainChilditem1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.RouteCreatorMainChilditem1Head{
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.RouteCreatorMainChilditem1HeadInput{
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    border: 1px solid #d0d0d0;
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    outline: none;
+}
+.RouteCreatorMainChilditem1HeadInput:focus{
+    border-color: #007bff;
+}
+.RouteCreatorMainChilditem1HeadSelect{
+    background-color: #F5F5F5;
+    border-radius: 16px;
+    border: 1px solid #d0d0d0;
+    width: 100%;
+    font-size: 14px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.RouteCreatorMainChilditem1HeadSelect:focus{
+    border-color: #007bff;
+}
+.LinkedListItem{
+    background: #EDEEF0;
+    border: 1px solid #45CE85;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #1D1D1D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.LinkedListItemPlus{
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+}
+.LinkedListItemAction{
+    background-color: #D0D0D0;
+    font-size: 14px;
+    color: #1D1D1D;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+.LinkedList{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 10px;
+}
+.tickItem{
+    width: 40px;
+    height: 40px;
+}
